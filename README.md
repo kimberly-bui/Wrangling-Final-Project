@@ -1,7 +1,7 @@
 # data-template
 Starting template for data projects
 
-Link to professor's template: https://github.com/mikecolbert/README-template
+[Professor's Templates](https://github.com/mikecolbert/README-template)
 ---
 
 ## Data source
