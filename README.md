@@ -1,6 +1,10 @@
 # data-template
 Starting template for data projects
 
+---
+
+![Python badge](https://img.shields.io/static/v1?message=Python&logo=Python&labelColor=3776AB&color=3776AB&logoColor=white&label=%20&style=for-the-badge)
+
 [Professor's Templates](https://github.com/mikecolbert/README-template)
 ---
 
