@@ -47,7 +47,9 @@ Additional Considerations:
 
 
 4. Conclusion
+
 This study investigated the impact of COVID-19 on healthcare worker job satisfaction, income, and overtime hours, ultimately affecting employee attrition rates. By analyzing data from 2018 (pre-pandemic) and 2022 (post-pandemic), we identified key trends and potential contributing factors.
+
 Key Findings:
 •	Job Satisfaction: Job satisfaction in the healthcare sector declined significantly post-pandemic. This decrease is likely due to factors such as increased workload, stress, and staffing shortages.
 •	Income and Job Satisfaction: While income remains a factor in job satisfaction, the correlation weakened post-pandemic. This suggests other factors, like work-life balance, have become more significant.
