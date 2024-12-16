@@ -12,7 +12,9 @@ While income remains a contributing factor to job satisfaction, the pandemic has
 
 We should now examine the p value and correlation using Pearson.
 There is high correlation but the p values suggest that both years are not statistically significant. We would like to note that the correlation was stronger in 2018 compared to 2022.
-  
+
+---
+ 
 How has job satisfaction changed since COVID-19?
 The 2018 dataset exhibited a higher and more widely distributed level of job satisfaction, with notable outliers (up to ~35,000). In contrast, the 2022 dataset shows a significant decline in job satisfaction, with data points tightly concentrated around lower values.
 Post-pandemic job satisfaction dropped due to factors such as:
@@ -30,7 +32,9 @@ The decline in overtime hours may result from:
 -	Burnout limiting nurses’ ability to work extended hours.
 -	Staffing shortages making it unsustainable to rely on overtime.
 -	Organizational changes in workload distribution and resource
- 
+
+
+---
 
 How does the relationship between overtime hours and individual income impact employee attrition rates between 2018 and 2022?
 
@@ -45,6 +49,7 @@ There was a slight decrease in individual income from 2018 to 2022.
 Additional Considerations:
 -	It's important to note that this data demonstrates correlation, not causation. While the decrease in overtime and income may be related to lower attrition, other factors could be influencing these trends.
 
+---
 
 4. Conclusion
 
