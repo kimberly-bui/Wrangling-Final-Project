@@ -2,13 +2,12 @@
 
 ## Kim Bui & Camille Eastvold  
 
-1. Introduction  
-
 Since 2019, the coronavirus has been infecting the world. Years later the U.S. is still dealing with the symptoms of high turnover and poor retention rates across the healthcare industry. Is the job market still in recovery?  
 
 The COVID-19 pandemic has had profound and lasting effects on the healthcare sector, particularly in the United States. Healthcare institutions continue to grapple with issues such as high turnover, reduced job satisfaction, and an increased workload for remaining staff. Nurses, as a cornerstone of the healthcare workforce, have been disproportionately affected. 
 
 This study analyzes trends in job satisfaction, income, and overtime hours by comparing data from 2018 (pre-pandemic) and 2022 (post-pandemic). By identifying key factors contributing to healthcare attrition, this research aims to provide actionable insights for improving retention and addressing burnout among healthcare workers. In this project, we are using 2022 Healthcare Employee Attrition1 dataset to find emerging trends after the pandemic to see the changes for nurses using national report data, we obtained from 2018 National Sample Survey of Registered Nurses Nursing Solutions Inc (NSI)2. 
+
 ---
 
 ## Data source
