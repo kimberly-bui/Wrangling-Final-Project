@@ -12,11 +12,6 @@ While income remains a contributing factor to job satisfaction, the pandemic has
 
 We should now examine the p value and correlation using Pearson.
 There is high correlation but the p values suggest that both years are not statistically significant. We would like to note that the correlation was stronger in 2018 compared to 2022.
-
-2018:
-  
-
-2022:
   
 How has job satisfaction changed since COVID-19?
 The 2018 dataset exhibited a higher and more widely distributed level of job satisfaction, with notable outliers (up to ~35,000). In contrast, the 2022 dataset shows a significant decline in job satisfaction, with data points tightly concentrated around lower values.
