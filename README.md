@@ -1,8 +1,7 @@
-# BAIS:3250 Data Wrangling
+# COVID-19 and Factors Relating to Healthcare Attrition 
 
 ## Kim Bui & Camille Eastvold  
-
-### COVID-19 and Factors Relating to Healthcare Attrition 
+### BAIS:3250 Data Wrangling
 
 This project investigated the impact of COVID-19 on healthcare worker attrition using Jupyter Notebooks for data analysis. We analyzed data from two publicly available sources: a 2018 National Sample Survey of Registered Nurses and a 2022 Healthcare Employee Attrition dataset.
 
