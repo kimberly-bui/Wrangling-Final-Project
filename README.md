@@ -1,13 +1,45 @@
 # COVID-19 and Factors Relating to Healthcare Attrition 
 
 ## Kim Bui & Camille Eastvold  
+### BAIS:3250 Data Wrangling
 
-Since 2019, the coronavirus has been infecting the world. Years later the U.S. is still dealing with the symptoms of high turnover and poor retention rates across the healthcare industry. Is the job market still in recovery? 
-The COVID-19 pandemic has had profound and lasting effects on the healthcare sector, particularly in the United States. Healthcare institutions continue to grapple with issues such as high turnover, reduced job satisfaction, and an increased workload for remaining staff. Nurses, as a cornerstone of the healthcare workforce, have been disproportionately affected.
+This project investigated the impact of COVID-19 on healthcare worker attrition using Jupyter Notebooks for data analysis. We analyzed data from two publicly available sources: a 2018 National Sample Survey of Registered Nurses and a 2022 Healthcare Employee Attrition dataset.
 
-This analysis finds trends in job satisfaction, income, and overtime hours by comparing data from 2018 (pre-pandemic) and 2022 (post-pandemic). By identifying key factors contributing to healthcare attrition, this research aims to provide actionable insights for improving retention and addressing burnout among healthcare workers. In this project, we are using 2022 Healthcare Employee Attrition  dataset to find emerging trends after the pandemic to see the changes for nurses using national report data, we obtained from 2018 National Sample Survey of Registered Nurses Nursing Solutions Inc (NSI) .
+**Data Acquisition and Preparation**
 
+1. **Downloaded** the 2022 Healthcare Employee Attrition dataset (watson_healthcare_modified.csv) from Kaggle.
+2. **Cleaned and transformed** the data using Jupyter Notebooks, including handling missing values, converting data types, and creating new features.
+3. **Web-scraped** data from the 2018 National Sample Survey of Registered Nurses.
+4. **Cleaned and transformed** the web-scraped data, ensuring consistency with the 2022 dataset.
+5. **Merged** the two datasets based on relevant variables.
 
+**Data Analysis and Modeling**
+
+1. **Exploratory Data Analysis (EDA):** Conducted EDA to understand data distributions, correlations, and potential relationships between variables.
+2. **Hypothesis Testing:** Used statistical tests to determine the significance of differences in job satisfaction, overtime hours, and income between pre- and post-pandemic periods.
+3. **Correlation Analysis:** Explored the correlation between income and attrition using Pearson Correlation Coefficient.
+4. **Regression Modeling:** Utilized linear regression to identify factors contributing to high attrition rates.
+
+**Key Findings**
+
+* **Job satisfaction** significantly decreased post-pandemic due to increased workload, stress, and staffing shortages. 
+* Income showed a **weak correlation** with job satisfaction, suggesting other factors like work-life balance are more important.
+* **Overtime hours** increased in 2022 compared to 2018, potentially due to burnout or staffing issues.
+
+**Conclusion**
+
+These findings suggest the need for healthcare institutions to prioritize employee well-being, fair compensation, and effective workload management to improve retention. Further research with targeted datasets and qualitative studies could provide deeper insights.
+
+**Technical Implementation**
+
+The entire analysis was conducted using Jupyter Notebooks, executing the notebooks in the following order:
+
+1. **00_webscrape.ipynb:** Web-scraped data from the 2018 National Sample Survey.
+2. **01_kaggle.ipynb:** Cleaned and transformed the 2022 Healthcare Employee Attrition dataset.
+3. **02_merge.ipynb:** Merged the two datasets.
+4. **03_analysis.ipynb:** Performed exploratory data analysis, hypothesis testing, correlation analysis, and regression modeling. 
+
+This project demonstrates the effective use of Jupyter Notebooks for data wrangling, analysis, and modeling in a real-world healthcare scenario.
 ---
 
 ## Data source
@@ -15,27 +47,6 @@ This analysis finds trends in job satisfaction, income, and overtime hours by co
  
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC10742910/#healthcare-11-03173-t001 
  
-
-This project uses two primary sources of data: both are survey results from 2022 Healthcare Employee Attrition dataset from Kaggle and 2018 National Survey for Nursing Solutions Inc. 
-
-2.1 2018 Survey Data
-
-We collected data from the National Sample Survey of Registered Nurses Nursing Solutions Inc, found in the National Library of Medicine. 
-
-The overall findings of the survey were presented in table 3 of this report. Through web scraping script, 00_webscrape.ipynb we were able to gather all contents of the table. The table contained metrics from original 2018 survey data and simulated data calculated by an algorithm. After importing the scraped data into a data frame, we dropped unnecessary columns including the simulated algorithm data. We kept the real survey results in 2018. In the report response data, we gathered results from 43,937 Registered Nurses and transformed the results into a simple, easily interpreted table. 
-We transposed the data frame to replicate the table in the original report. For our last steps before merging the data frames, we converted all data types for each attribute to be float. Then saved the cleaned data into clean_webscraped.csv. 
-
-
-2.2 2022 Survey Data 
-
-The second data source we will use in this project is Employee Attrition for Healthcare dataset from Kaggle, derived from 2022 NSI National Health Care Retention Report. This data shows survey data from 272 hospitals across 32 states. This survey covers 589,901 healthcare workers, and 166,087 Registered Nurses. We created a data frame by importing the raw_2022.csv into 01_kaggle.ipynb that can be found in our project folder. There was not much cleaning needed for this dataset. However, we did drop columns containing factors not recorded in the 2018 data and changed all data types to float. After cleaning and transforming we converted the data frame into clean_kaggle.csv file. 
-
- 2.3 Combining 2018 and 2022 Data
-
-To ensure seamless integration, during the cleaning stages of each source, we confirmed each data frame had the same data types and variables. A description of each variable is listed in Table 1, 2 and 3.  
-The format was crucial in order for us to be able to merge the datasets. The data we web scraped was a table that took averages/count from all the survey results. By pulling key factors and calculating the averages/count from our Kaggle dataset, we were able to create identical tables. For this analysis we decided to use the merged data frame to see the overall differences between 2018 and 2022 attrition trends.
-
-Once both data frames were transposed and calculated into similar tables, we renamed all the columns by adding the year the responses were pulled from, for example: overtime_2018 and overtime_2022. Then created a union merger between both datasets, this combined and showed all columns/rows for both datasets. In the merge_df, there is data comparing factors contributing to attrition rates, before and after COVID-19. Lastly, once we merged, we rounded each data point to two decimal places and downloaded the results into merged.csv file. 
 
 
 
