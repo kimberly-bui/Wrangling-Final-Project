@@ -1,0 +1,3 @@
+This folder contains uncleaned data.
+Please note that only the watson_healthcare_modified.csv is needed to begin running the notebooks.
+The rest of the code will produce all other csv files.
