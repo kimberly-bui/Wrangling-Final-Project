@@ -1,0 +1,1 @@
+This folder contains graphs that were produced in 03_findings.ipynb 
