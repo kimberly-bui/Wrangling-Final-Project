@@ -36,8 +36,8 @@ The entire analysis was conducted using Jupyter Notebooks, executing the noteboo
 
 1. **00_webscrape.ipynb:** Web-scraped data from the 2018 National Sample Survey.
 2. **01_kaggle.ipynb:** Cleaned and transformed the 2022 Healthcare Employee Attrition dataset.
-3. **02_merge.ipynb:** Merged the two datasets.
-4. **03_analysis.ipynb:** Performed exploratory data analysis, hypothesis testing, correlation analysis, and regression modeling. 
+3. **02_intergrations.ipynb:** Merged the two datasets.
+4. **03_findings.ipynb:** Performed exploratory data analysis, hypothesis testing, correlation analysis, and regression modeling. 
 
 This project demonstrates the effective use of Jupyter Notebooks for data wrangling, analysis, and modeling in a real-world healthcare scenario.
 ---
