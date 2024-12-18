@@ -1,4 +1,5 @@
 **Full Report PDF is uploaded**
+<object data="kimbui_ceastvold_project_report.pdf" width="1000" height="1000" type='application/pdf'/>
 
 ## Summary of the Analysis
 
